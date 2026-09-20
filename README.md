@@ -1,4 +1,4 @@
-# shard-router
+# pg-shard-router
 
 An application-level PostgreSQL shard-routing service, implementing the
 architecture from *PostgreSQL Logical Sharding — Implementation Guide*
