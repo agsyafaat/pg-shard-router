@@ -1,0 +1,26 @@
+{
+  "shards": {
+    "shard-01": {
+      "shard_id": "shard-01",
+      "status": "ACTIVE",
+      "writer": { "host": "127.0.0.1", "port": 5433, "database": "payment" },
+      "reader": { "host": "127.0.0.1", "port": 5433, "database": "payment" },
+      "credential_ref": "secret/payment/postgresql",
+      "region": "jakarta"
+    },
+    "shard-02": {
+      "shard_id": "shard-02",
+      "status": "ACTIVE",
+      "writer": { "host": "127.0.0.1", "port": 5434, "database": "payment" },
+      "reader": { "host": "127.0.0.1", "port": 5434, "database": "payment" },
+      "credential_ref": "secret/payment/postgresql",
+      "region": "jakarta"
+    }
+  },
+  "buckets": {
+    "0": { "shard_id": "shard-01" },
+    "1": { "shard_id": "shard-01" },
+    "2": { "shard_id": "shard-02" },
+    "3": { "shard_id": "shard-02" }
+  }
+}

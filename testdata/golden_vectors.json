@@ -1,0 +1,42 @@
+[
+  {
+    "shard_key": "1",
+    "bucket_count": 1024,
+    "bucket_id": 225
+  },
+  {
+    "shard_key": "42",
+    "bucket_count": 1024,
+    "bucket_id": 653
+  },
+  {
+    "shard_key": "tenant-abc",
+    "bucket_count": 1024,
+    "bucket_id": 330
+  },
+  {
+    "shard_key": "9223372036854775807",
+    "bucket_count": 1024,
+    "bucket_id": 703
+  },
+  {
+    "shard_key": "0",
+    "bucket_count": 1024,
+    "bucket_id": 824
+  },
+  {
+    "shard_key": "1000000",
+    "bucket_count": 1024,
+    "bucket_id": 337
+  },
+  {
+    "shard_key": "merchant-9F3A",
+    "bucket_count": 1024,
+    "bucket_id": 375
+  },
+  {
+    "shard_key": "wallet-000123",
+    "bucket_count": 1024,
+    "bucket_id": 456
+  }
+]
